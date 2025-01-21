@@ -118,7 +118,7 @@ Linux
     - sudo apt install qt6-base-dev qt6-tools-dev qt6-tools-dev-tools qt6-l10n-tools
   - sudo apt install build-essential libgl1-mesa-dev
 - Build
-  - git submodule update
+  - git submodule update --init --recursive
   - mkdir build
   - cd build
   - cmake -G"Unix Makefiles" -DCMAKE_BUILD_TYPE=RELEASE -DCMAKE_PREFIX_PATH=$HOME/Qt/6.8/gcc_64 ../
